@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background-color: #5c8001;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+a {
+    text-decoration: overline underline rgb(209, 120, 19);
+    font-weight: bold;
+    color: rgb(177, 202, 130);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* MAIN */
+
+main {
+    margin: 10px;
+    padding: 10px;
+    font-family: Calibri, sans-serif;
+    color: #013d10;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #6c9602;
+}
+
+.specialMessage {
+    font-size: 25px;
+    color: #dadd09;
+}
+
+.imgIlustrativa {
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgJuego {
+    width: 250px;
+}
+
+.imgLogoQuizizz {
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imgVerbos {
+    width: 600px;
+    margin: 30px;
+    border: 5px solid rgb(221, 136, 8);
+    border-radius: 20px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+/* formulario */
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:#503702;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid rgb(204, 247, 14);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.btnFormulario {
+    background-color: #503702;
+    color:#bb8207;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 2px solid #bb8207;
+    color: #503702;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
