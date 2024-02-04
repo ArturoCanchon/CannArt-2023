@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CannArt</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
 
-  
   <body>
     <header>
       <a href="">
@@ -26,27 +31,57 @@
     </header>
 
     <main>
-      <section>
-        <p class="specialMessage">
-          If you just wanna learn English in the traditional way... <br />You
-          don't have to leave, but you can't stay here.
-        </p>
-        <br />
-        <p class="specialMessage">
-          But, if you wanna <b>HAVE FUN</b> while learning English... <br />Grab
-          some popcorn, and make yourself at home!
-        </p>
-        <br />
-        <p>
-          If you just wanna learn English in the traditional way... You don't
-          have to leave, but you can't stay here.
-        </p>
-        <img
-          class="imgIlustrativa"
-          src="images/asshole_game.jpeg"
-          alt="asshole game image"
-        />
-      </section>
+      <!--First section - NORMAL MODE-->
+      <!-- <section class="container-fluid">
+        <div class="row">
+          <article class="bg-success col-6" >
+            <p class="specialMessage">
+              If you just wanna learn English in the traditional way... <br />You
+              don't have to leave, but you can't stay here.
+            </p>
+            <br />
+            <p class="specialMessage">
+              But, if you wanna <b>HAVE FUN</b> while learning English...
+              <br />Grab some popcorn, and make yourself at home!
+            </p>
+            <br />
+          </article>
+          <img class="col-4 img-responsive"
+            src="images/assholeGame.jpeg"
+            alt="asshole game image"
+          />
+        </div>
+
+        <div class="row">
+          
+        </div>
+      </section> -->
+
+      <!--First section - BOOTSTRAP MODE-->
+      <div class="card mb-3 mx-auto" style="max-width: 700px">
+        <div class="row g-0">
+          
+          <div class="col-md-8">
+            <div class="card-body text-center">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text h4">
+                If you just wanna learn English in the traditional way...
+                You don't have to leave, but you can't stay here.
+              </p>
+              <p class="card-text h4">
+                But, if you wanna <b>HAVE FUN</b> while learning English... Grab some popcorn, and make yourself at home!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/assholeGame.jpeg"
+              class="img-fluid rounded-start"
+              alt="asshole game image"
+            />
+          </div>
+        </div>
+      </div>
 
       <section>
         <h2>HERE YOU CAN FIND:</h2>
@@ -106,6 +141,13 @@
           <input class="btnFormulario" type="reset" />
         </form>
       </section>
+
+      <!-- Código Boostrap -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
     </main>
 
     <footer>
