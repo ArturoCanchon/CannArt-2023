@@ -36,6 +36,7 @@ a {
 /* Navbar Bootstrap */
 .nav-link{
     color: #ffc107;
+    --bs-nav-link-hover-color: #fff;
 }
 
 
