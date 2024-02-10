@@ -33,6 +33,11 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar Bootstrap */
+.nav-link{
+    color: #ffc107;
+}
+
 
 /* MAIN */
 
